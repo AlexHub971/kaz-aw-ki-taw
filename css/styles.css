@@ -1,0 +1,119 @@
+/* HTML ELEMENTS */
+body {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cormorant', serif;
+}
+
+p {
+    text-align: justify;
+}
+
+/* GLOBAL CLASSES */
+
+.btn-cta {
+    display: block;
+    background-color: #FF385C;
+    color: white;
+}
+
+.btn-cta:hover {
+    color: #FF385C;
+    border-color: #FF385C;
+}
+
+.bg-cream {
+    background-color: #F1EEE3;
+}
+
+.bg-grey {
+    background-color: #FAF9F5;
+}
+
+.price {
+    color: #FF385C;
+}
+
+.price:hover {
+    color: #b71432;
+}
+
+.social:hover {
+    cursor: pointer;
+}
+
+.owner,
+.owner:hover {
+    color: #FF385C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* CAROUSEL IMAGES */
+
+#carouselCover .carousel-item img,
+#property #cover img {
+    object-fit: cover;
+    object-position: center;
+    height: 60vh;
+    overflow: hidden;
+}
+
+/* USER */
+
+#user {
+    text-align: right;
+    margin-right: 4em;
+}
+
+#user a {
+    color: lightgray;
+}
+
+@media (max-width: 992px) {
+    #user {
+        text-align: left;
+        margin-left: 3em;
+    }
+
+    #user a {
+        color: lightgray;
+    }
+}
+
+/* LOGIN */
+
+#login-registration_section_content {
+    background-color: #7c7f83;
+    width: 300px;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding-bottom: 12px;
+    color: white;
+}
+
+#login a {
+    color: white;
+}
+
+#login h1,
+#login a,
+#login label,
+#login input {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+#login-registration_section {
+    margin: auto;
+}
